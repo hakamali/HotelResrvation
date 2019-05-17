@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Hotel Reservation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cities2">
+        <item>All</item>
+        <item>Sahiwal</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Islamabad</item>
+        <item>Murree</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Sahiwal</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Islamabad</item>
+        <item>Murree</item>
+    </string-array>
+
+    <string-array name="mealplan">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Lunch + Dinner</item>
+        <item>No Meal</item>
+    </string-array>
+
+</resources>

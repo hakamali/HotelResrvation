@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_booking_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.app.reservation.hotel.hotelreservationproject.BookingPageActivity">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:singleLine="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:hint="Enter your name"
+                    android:textSize="14sp"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/etCNIC"
+                    android:layout_marginEnd="20dp"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Enter your CNIC"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/etPhoneNumber"
+                    android:layout_marginEnd="20dp"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Enter your phone number"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/etNoOfRooms"
+                    android:layout_marginEnd="20dp"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Number of Rooms"
+                    android:maxLength="2"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/etCheckin"
+                    android:layout_marginEnd="20dp"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Check in Date"
+                    android:textSize="14sp"
+                    android:inputType="date"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/etCheckout"
+                    android:layout_marginEnd="20dp"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Check out Date"
+                    android:textSize="14sp"
+                    android:inputType="date"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Select Your Meal Plan"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Spinner
+                    android:id="@+id/spMealPlanBookingPage"
+                    android:layout_marginTop="5dp"
+                    android:paddingStart="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:background="@drawable/et_background"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Spinner>
+
+
+                <Button
+                    android:id="@+id/btnBookHotel"
+                    android:text="Book"
+                    android:textColor="#fff"
+                    android:background="@drawable/roundedbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</ScrollView>
